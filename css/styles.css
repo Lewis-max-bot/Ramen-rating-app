@@ -1,0 +1,156 @@
+h1{
+    color: red;
+    background-color: black;
+    margin: 20px;
+}
+
+#ramen-menu{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+    overflow: auto;
+}
+
+#ramen-menu img{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+body{
+    text-align: center;
+    margin: 5;
+    padding: 5;
+    background-color: aliceblue;
+}
+
+#ramen-detail{
+    width: 200px;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.text-overlay{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    bottom: 0px;
+    left: opx;
+}
+
+.image-container{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.image-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-overlay{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text-overlay h2{
+    font-size: 20px;
+    background-color: white;
+    color: purple;
+    margin: 0;
+}
+
+.text-overlay p{
+    margin: 5px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+}
+
+#ramen-detail p{
+    margin: 5PX 0;
+    font-weight: bold;
+    color: black;
+}
+
+form{
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: auto;
+}
+
+form h2{
+    background-color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: bold;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+
